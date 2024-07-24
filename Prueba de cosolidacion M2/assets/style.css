@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #423f3f;
+    background-color: #c9a1b2 ; 
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:  #cea7d4; 
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#rounded{
+    border-radius: 50%;
+
+}
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.social-icon img:hover {
+    opacity: 1;
+}
+
+.container {
+    background-color: #ebc0c9;
+    padding: 20px;
+}
+
+.project {
+    background-color: #daafcd;
+    border: 1px solid #575151;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #cea7d4;
+    border: 1px solid #f5cdcd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-custom {
+    background-color: #f19bc6; /* Rosado pastel */
+    /* color: rgb(85, 76, 76); Color del texto */
+    border: 2px solid #FF69B4; 
+    border-radius: 5px; /* Bordes btn */
+}
+
+.btn-custom:hover {
+    background-color: #d6afdd; /* Color para el hover */
+}
+
+.footer {
+    background-color: #d6afdd;
+    padding: 10px 0;
+}

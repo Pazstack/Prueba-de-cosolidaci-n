@@ -1,13 +1,13 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #423f3f;
-    background-color: #c9a1b2 ; 
+    background-color: #c9a1b2; 
     margin: 0;
     padding: 0;
 }
 
 .header {
-    background-color:  #cea7d4; 
+    background-color: #cea7d4; 
     padding: 40px 0;
     text-align: center;
 }
@@ -18,13 +18,24 @@ body {
     object-fit: cover;
 }
 
-#rounded{
+#rounded {
     border-radius: 50%;
-
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+.social-icons .social-icon {
+    margin: 0 10px; /* Espacio entre los íconos */
+}
+
 .social-icon img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     opacity: 0.7;
     transition: opacity 0.3s ease;
 }
@@ -65,8 +76,7 @@ ul li {
 }
 
 .btn-custom {
-    background-color: #f19bc6; /* Rosado pastel */
-    /* color: rgb(85, 76, 76); Color del texto */
+    background-color: #f19bc6; /* Rosado pastel al hacer click */
     border: 2px solid #FF69B4; 
     border-radius: 5px; /* Bordes btn */
 }
